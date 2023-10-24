@@ -1,0 +1,88 @@
+/* começo do index (obs: nos outros arquivos css, eu praticamente dei ctrl v na estilização do menu, body, rolagem, então vou comentar sobre isso só nesse arquivo.*/
+body{
+    background-color: black;
+    font-family: consolas;
+    color: white;
+ 
+}
+.menu ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;                          /* ajustando o menu */  
+    display: flex;
+    margin-top: 3%;
+
+}
+.menu ul li a {
+    padding:  15px;
+    font-family: consolas;
+    font-size: 19px;
+    font-weight: bold;                       /* estilizando a fonte do menu*/
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;   
+    
+}
+a:hover{
+    border-bottom: solid rgb(94, 255, 0) 2px;       
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px; 
+    background-color: #ffffff;
+  
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(94, 255, 0) ;
+  }                                                /* estilizando a barra de rolagem do site*/
+  ::-webkit-scrollbar-track-piece {
+    background:rgb(20, 20, 20);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 255, 0);
+    border-radius: 5px;
+  }
+  
+
+.areaprincipal{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-top: 5%;                                            /* incluindo margens, display e configurações de alinhamento para o bloco de contéudo */   
+    display: flex;                               
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    border-radius: 10px;
+    box-shadow: rgb(0, 255, 13) 1px 1px 1px ;
+}
+
+
+
+.sonic {
+    width: 150px; 
+    border-radius: 10px;                    /* imagem do sonic e suas configurações */
+    margin-top: 20px;  
+}
+
+.nome {
+    color: #ffffff;
+    font-family: consolas;              
+    text-transform: uppercase;
+    font-size: 25px;
+}
+p{
+    color: white;
+    font-size: 17px;    
+    line-height: 0;
+}
+h4{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+}

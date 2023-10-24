@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    font-family: consolas;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.lateral {
+    background-color: rgb(20, 20, 20);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 17%;
+    padding-top: 35%;
+    width: 50%;
+    margin-right: 30vh;
+    text-align: center;
+}
+
+.sonic {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nome {
+    color: #ffffff;
+    font-family: consolas;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu ul {
+    list-style: none;
+    line-height: 70px;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff;
+  
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(94, 255, 0) ;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background:rgb(20, 20, 20);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 255, 0);
+    border-radius: 5px;
+  }
+
+.menu ul li a {
+    padding: 15px;
+    font-family: consolas;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: solid rgb(94, 255, 0) 2px;
+}
+.bloco{
+    background-color:rgb(20, 20, 20);
+    box-shadow: rgba(0, 255, 13, 0.452) 1px 3px 2px;
+    border-radius: 10px;
+    width: 400px;             /* criação dos 6 blocos, definindo seus tamanhos e margens, e utilizando também um float left, para que fiquem 3 por linha, e não 1 embaixo do outro */
+    height: 150px;                                 
+    float: left;
+    margin-top: 4%;
+    margin-right: 30px;
+}
+.conteudo{
+  margin-top: 170px;            /*aplicando uma margem no topo, para que o conteudo da div ficasse centralizado no site, já que não era algo longo. */
+}
+.escola{
+    text-align: center;
+}
+.python{
+    margin-left: 42%;         /* aplicando margem a todas as imagens, para que ficassem centralizadas com o texto.*/
+}
+.java{
+    margin-left: 42%;
+}
+.javascript{
+    margin-left: 42%;
+
+}

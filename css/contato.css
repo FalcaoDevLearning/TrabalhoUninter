@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    font-family: consolas;
+    color: white;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.lateral {
+    background-color: rgb(20, 20, 20);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 17%;
+    padding-top: 35%;
+    width: 50%;
+    margin-right: 30vh;
+    text-align: center;
+}
+
+.sonic {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nome {
+    color: #ffffff;
+    font-family: consolas;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu ul {
+    list-style: none;
+    line-height: 70px;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff;
+  
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(94, 255, 0) ;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background:rgb(20, 20, 20);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 255, 0);
+    border-radius: 5px;
+  }
+
+.menu ul li a {
+    padding: 15px;
+    font-family: consolas;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: solid rgb(94, 255, 0) 2px;
+}
+.sociais{
+    margin-top: 60px;
+}
+.git{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.centralizar{
+  display: block;
+}
+
+.formulario {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.formulario h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: consolas;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.formulario input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(94, 255, 0);
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(20, 20, 20);
+    transition: 0.5s;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    font-family: consolas;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.lateral {
+    background-color: rgb(20, 20, 20);
+    padding-left: 10%;
+    padding-right: 10%;                                    /*aqui fiz uma div lateral, para que o menu + imagem e algumas informações minhas ficassem na lateral.*/
+    padding-bottom: 100%;
+    padding-top: 35%;
+    width: 50%;
+    text-align: center;
+}
+
+.sonic {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nome {
+    color: #ffffff;
+    font-family: consolas;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu ul {
+    list-style: none;
+    line-height: 70px;
+    padding: 0;
+}
+
+.menu ul li a {
+    padding: 15px;
+    font-family: consolas;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #ffffff;
+  
+  }
+  ::-webkit-scrollbar-track {
+    background:rgb(94, 255, 0) ;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background:rgb(20, 20, 20);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 255, 0);
+    border-radius: 5px;
+  }
+
+a:hover {
+    border-bottom: solid rgb(94, 255, 0) 2px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    /* aqui foi configurado a section dos blocos div, área para ser aplicado margens e conceitos de como o conteudo vai se portar na tela */
+    margin: 0 10px;
+}
+
+.bloco {
+    width: 60%;
+    background-color: rgb(20, 20, 20);
+    margin-left: 50%;
+    margin-top: 5%;
+    height: 20%;
+    padding: 0;                                       /* configuração de tamanho, margens e algumas propriedades para os blocos div, */
+    text-align: center;
+    color: #fff;
+    box-shadow: rgba(0, 255, 13, 0.452) 1px 3px 2px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.escola {
+    font-size: 29px;
+    margin-top: 10%;                           /*estilização dos textos da div */
+    text-transform: uppercase;
+}
